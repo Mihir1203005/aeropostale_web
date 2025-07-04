@@ -17,7 +17,7 @@ function NavbarCompo() {
 
   const WomensProduct = () => {
     axios
-    .get('http://localhost:3000/women-product', {
+    .get('https://aeropostale-be.onrender.com/women-product', {
       params: {
         q:search
       },

@@ -12,7 +12,7 @@ function Description() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/women-product/${id}`)
+      .get(`https://aeropostale-be.onrender.com/women-product/${id}`)
       .then((res) => setProduct(res.data))
       .catch((err) => console.log(err));
     DesProduct();
@@ -20,7 +20,7 @@ function Description() {
 
   const DesProduct = () => {
     axios
-      .get(`http://localhost:3000/women-product`)
+      .get(`https://aeropostale-be.onrender.com/women-product`)
       .then((res) => setdesdata(res.data))
       .catch((err) => console.log(err));
   };
