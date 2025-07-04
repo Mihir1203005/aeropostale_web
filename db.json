@@ -1,22 +1,38 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-
-
-
-
-
-
-
-
- {
+{
+    "women-product": [
+        {
+            "id": "1",
+            "img": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw11c42b92/82731595_690_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img2": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw2c12afb0/82731595_690_alt1.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img3": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw577f3996/82731595_690_alt2.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img4": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw26d7c40c/82731595_690_alt3.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "title": "Hello Kitty Crew Sweater",
+            "mini":"Aero Exclusive",
+            "price": "32.97",
+            "comp":"  29.95",
+            "description": "A stylish graphic cami featuring Hello Kitty. Perfect for casual wear.",
+            "details": "Material: 100% Cotton. Machine washable. Imported.",
+            "sizes": ["XS", "S", "M", "L", "XL"],
+            "colors":  "White",
+            "category":"Featured"
+        },
+        {
+            "id": "2",
+            "img": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw044b9801/81161607_102_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img2": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwc0a372dd/81161607_102_alt2.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img3": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwdb907b66/81161607_102_alt3.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img4": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw37259784/81161607_102_alt4.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "title": "Hello Kitty Graphic Cami",
+            "mini":"Aero Exclusive",
+            "price": "14.97",
+            "comp":"  29.95",
+            "description": "A stylish graphic cami featuring Hello Kitty. Perfect for casual wear.",
+            "details": "Material: 100% Cotton. Machine washable. Imported.",
+            "sizes": ["XS", "S", "M", "L", "XL"],
+            "colors":  "White" ,
+            "category":"Featured"
+        },
+        {
             "id": "3",
             "img": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw4dce0cbe/72771593_053_alt2.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
             "img2": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw3cde431c/72771593_053_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
@@ -582,3 +598,54 @@ Currently, two official plugins are available:
             "colors": "Grey",
             "category": "Featured"
         }
+        
+        
+    ],
+
+
+   
+    "men-product": [
+        {
+            "id": "1",
+            "img": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw276b01b3/60171560_001_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img2": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwb4585e5f/60171560_001_alt1.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img3": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwcb51dd2e/60171560_001_alt2.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img4": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw2859973e/60171560_001_alt3.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "title": "Hello ",
+            "mini":"Aero Exclusive",
+            "price": "32.97",
+            "comp":"  29.95",
+            "description": "A stylish graphic cami featuring Hello Kitty. Perfect for casual wear.",
+            "details": "Material: 100% Cotton. Machine washable. Imported.",
+            "sizes": ["XS", "S", "M", "L", "XL"],
+            "colors":  "White",
+            "category":"Featured"
+        },
+        {
+            "id": "2",
+            "img": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwb72ef218/60171560_300_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img2": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw6935064e/60171560_300_alt1.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img3": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw6935064e/60171560_300_alt1.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "img4": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw6935064e/60171560_300_alt1.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+            "title": "Hello Kitty Graphic Cami",
+            "mini":"Aero Exclusive",
+            "price": "14.97",
+            "comp":"  29.9",
+            "description": "A stylish graphic cami featuring Hello Kitty. Perfect for casual wear.",
+            "details": "Material: 100% Cotton. Machine washable. Imported.",
+            "sizes": ["XS", "S", "M", "L", "XL"],
+            "colors":  "White" ,
+            "category":"Featured"
+        }
+       
+        
+        
+    ]
+
+}
+
+
+
+
+
+
